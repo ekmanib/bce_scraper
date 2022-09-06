@@ -1,0 +1,41 @@
+RESERVAS INTERNACIONALES
+
+all_indicators = "//input[@id='check_R1.IF2_checkSelectAll']"    // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame / iframe#_iframeleftPaneW
+all_months = "//input[@id='check_R1.IF1_checkSelectAll']"    // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame / iframe#_iframeleftPaneW
+all_years = "//option[@value='Todos los valores']"    // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame / iframe#_iframeleftPaneW
+accept_years = "//nobr[@id='Btn_R1.IF0_btn']" OR "//nobr[contains(@id, 'Btn_')]" OR "//nobr[@class = "wizbutton"]" // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame / iframe#_iframeleftPaneW
+
+# checkSelectAll may be chosen by select_elements function to get a list of elements to click
+checkSelectAll = "//input[contains(@id, '_checkSelectAll')]"  // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame / iframe#_iframeleftPaneW
+
+export_btn = "//div[@id='IconImg__dhtmlLib_307']"// iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame
+
+data_radio = "//input[@id='check_radioData']"   // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame
+
+export_accept = "//nobr[@id='Btn_OK_BTN_idExportDlg']"
+export_accept2 = "//button[@id='RealBtn_OK_BTN_idExportDlg']"
+
+BOLETIN MONETARIO
+
+all_years = "//option[@value = 'Todos los valores']"
+accept_years = "//nobr[@id = 'Btn_R3.IF0_btn']" OR "//nobr[contains(@id, 'Btn_')]" OR "//nobr[contains(@id, 'IF0_btn')]"
+
+# checkSelectAll may be chosen by select_elements function to get a list of elements to click
+checkSelectAll = "//input[contains(@id, '_checkSelectAll')]"  // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame / iframe#
+`check_R3.IF2_checkSelectAll`
+
+export_btn = "//div[@id='IconImg__dhtmlLib_307']" OR "" // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame
+
+data_radio = "//input[@id='check_radioData']"   // iframe#miIframe / iframe#openDocChildFrame / iframe#webiViewFrame
+
+export_accept = "//nobr[@id='Btn_OK_BTN_idExportDlg']"
+export_accept2 = "//button[@id='RealBtn_OK_BTN_idExportDlg']"
+
+
+####################################################
+They are fucking similar and that's amazing! At least I've got sector monetario covered!
+####################################################
+
+EVOLUCION DE LA BALANZA COMERCIAL
+ >> This page contains all the iframes just as the pages of SECTOR MONETARIO
+ except for the first. I need to go pass that problem
